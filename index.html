@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Живые ёлки и пихты с доставкой по Санкт-Петербургу</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Шапка -->
+    <header class="header" id="header">
+        <!-- Верхняя строка (скрыта на мобильных) -->
+        <div class="header__top">
+            <div class="container header__top-inner">
+                <div class="header__info">
+                    <span class="header__work-time">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                        Работаем с 8:00 до 24:00
+                    </span>
+                    <a href="mailto:mail@elki.site" class="header__email">mail@elki.site</a>
+                </div>
+                <div class="header__social">
+                    <a href="#" class="header__social-link" title="Telegram">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="header__social-link" title="VK">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.391 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.864-.525-2.05-1.727-1.033-1-1.49-1.135-1.744-1.135-.356 0-.458.102-.458.593v1.575c0 .424-.135.678-1.253.678-1.846 0-3.896-1.118-5.335-3.202C4.624 10.857 4 8.684 4 8.262c0-.254.102-.491.593-.491h1.744c.44 0 .61.203.78.677.863 2.49 2.303 4.675 2.896 4.675.22 0 .322-.102.322-.66V9.721c-.068-1.186-.695-1.287-.695-1.71 0-.203.17-.407.44-.407h2.744c.373 0 .508.203.508.643v3.473c0 .372.17.508.271.508.22 0 .407-.136.813-.542 1.254-1.406 2.151-3.574 2.151-3.574.119-.254.322-.491.763-.491h1.744c.525 0 .644.27.525.643-.22 1.017-2.354 4.031-2.354 4.031-.186.305-.254.44 0 .78.186.254.796.779 1.203 1.253.745.847 1.32 1.558 1.473 2.05.17.49-.085.744-.576.744z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="header__social-link" title="WhatsApp">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Основная часть хедера -->
+        <div class="header__main">
+            <div class="container header__main-inner">
+                <a href="index.html" class="header__logo">
+                    <svg class="header__logo-icon" viewBox="0 0 40 40" fill="none">
+                        <path d="M20 2L24 12H16L20 2Z" fill="currentColor"/>
+                        <path d="M20 8L26 20H14L20 8Z" fill="currentColor"/>
+                        <path d="M20 14L28 28H12L20 14Z" fill="currentColor"/>
+                        <path d="M20 20L30 36H10L20 20Z" fill="currentColor"/>
+                        <rect x="17" y="36" width="6" height="4" fill="#8B4513"/>
+                    </svg>
+                    <span class="header__logo-text">ЁЛКИ СПБ</span>
+                </a>
+
+                <a href="tel:+78129003662" class="header__phone">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                    <span>8 (812) 900 36-62</span>
+                </a>
+
+                <button class="header__cart" id="cartBtn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="9" cy="21" r="1"/>
+                        <circle cx="20" cy="21" r="1"/>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+                    </svg>
+                    <span class="header__cart-count" id="cartCount">0</span>
+                    <span class="header__cart-text">Корзина</span>
+                </button>
+
+                <button class="header__burger" id="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Навигация -->
+        <nav class="header__nav">
+            <div class="container header__nav-inner">
+                <div class="header__nav-item header__nav-item--catalog">
+                    <a href="catalog.html" class="header__nav-link header__nav-link--catalog" id="catalogBtn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="7" height="7"/>
+                            <rect x="14" y="3" width="7" height="7"/>
+                            <rect x="14" y="14" width="7" height="7"/>
+                            <rect x="3" y="14" width="7" height="7"/>
+                        </svg>
+                        Каталог товаров
+                        <svg class="header__nav-arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </a>
+
+                    <!-- Мега-меню каталога -->
+                    <div class="mega-menu" id="megaMenu">
+                        <div class="mega-menu__inner">
+                            <div class="mega-menu__col">
+                                <div class="mega-menu__section">
+                                    <a href="catalog.html" class="mega-menu__title">Живые ёлки и пихты</a>
+
+                                    <div class="mega-menu__group">
+                                        <a href="category-elki.html" class="mega-menu__subtitle">Ёлки</a>
+                                        <ul class="mega-menu__list">
+                                            <li><a href="product-datskaya.html">Датские ёлки</a></li>
+                                            <li><a href="product-russkaya.html">Русские ёлки</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="mega-menu__group">
+                                        <a href="category-pihty.html" class="mega-menu__subtitle">Пихты</a>
+                                        <ul class="mega-menu__list">
+                                            <li><a href="product-nordmana.html">Пихта Нордмана</a></li>
+                                            <li><a href="product-frazera.html">Пихта Фразера</a></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="mega-menu__group">
+                                        <a href="category-sosny.html" class="mega-menu__subtitle">Сосны</a>
+                                        <ul class="mega-menu__list">
+                                            <li><a href="product-sosna.html">Уральские сосны</a></li>
+                                            <li><a href="product-sosna.html">Новогодние сосны</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mega-menu__col">
+                                <div class="mega-menu__section">
+                                    <a href="accessories.html" class="mega-menu__title">Подставки и аксессуары</a>
+                                    <ul class="mega-menu__list">
+                                        <li><a href="product-podstavka.html">Подставки для ёлок и пихт</a></li>
+                                        <li><a href="product-zhidkost.html">Жидкость против осыпания</a></li>
+                                        <li><a href="product-lapnik.html">Набор веток из пихты (лапник)</a></li>
+                                        <li><a href="product-kovrik.html">Коврик-мешок для ёлок и пихт</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="dostavka.html" class="header__nav-link">Доставка / Самовывоз</a>
+                <a href="skidki.html" class="header__nav-link">Скидки и акции</a>
+                <a href="oplata.html" class="header__nav-link">Оплата</a>
+                <a href="reviews.html" class="header__nav-link">Отзывы</a>
+                <a href="about.html" class="header__nav-link">О компании</a>
+                <a href="contacts.html" class="header__nav-link">Контакты</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Мобильное меню -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu__header">
+            <a href="index.html" class="mobile-menu__logo">
+    <svg class="mobile-menu__logo-icon" viewBox="0 0 40 40" fill="none">
+        <path d="M20 2L24 12H16L20 2Z" fill="currentColor"/>
+        <path d="M20 8L26 20H14L20 8Z" fill="currentColor"/>
+        <path d="M20 14L28 28H12L20 14Z" fill="currentColor"/>
+        <path d="M20 20L30 36H10L20 20Z" fill="currentColor"/>
+        <rect x="17" y="36" width="6" height="4" fill="#8B4513"/>
+    </svg>
+    <span class="mobile-menu__logo-text">ЁЛКИ СПБ</span>
+</a>
+            <button class="mobile-menu__close" id="mobileMenuClose">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+        </div>
+        <nav class="mobile-menu__nav">
+            <div class="mobile-menu__section">
+                <button class="mobile-menu__link mobile-menu__link--expandable" data-submenu="catalog">
+                    Каталог товаров
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 9l6 6 6-6"/>
+                    </svg>
+                </button>
+                <div class="mobile-menu__submenu" id="submenu-catalog">
+                    <a href="catalog.html" class="mobile-menu__sublink mobile-menu__sublink--title">Живые ёлки и пихты</a>
+                    <a href="product-datskaya.html" class="mobile-menu__sublink">Датские ёлки</a>
+                    <a href="product-russkaya.html" class="mobile-menu__sublink">Русские ёлки</a>
+                    <a href="product-nordmana.html" class="mobile-menu__sublink">Пихта Нордмана</a>
+                    <a href="product-frazera.html" class="mobile-menu__sublink">Пихта Фразера</a>
+                    <a href="product-sosna.html" class="mobile-menu__sublink">Сосны</a>
+                    <a href="accessories.html" class="mobile-menu__sublink mobile-menu__sublink--title">Подставки и аксессуары</a>
+                    <a href="product-podstavka.html" class="mobile-menu__sublink">Подставки для ёлок</a>
+                    <a href="product-zhidkost.html" class="mobile-menu__sublink">Жидкость против осыпания</a>
+                    <a href="product-lapnik.html" class="mobile-menu__sublink">Лапник</a>
+                </div>
+            </div>
+            <a href="dostavka.html" class="mobile-menu__link">Доставка / Самовывоз</a>
+            <a href="skidki.html" class="mobile-menu__link">Скидки и акции</a>
+            <a href="oplata.html" class="mobile-menu__link">Оплата</a>
+            <a href="reviews.html" class="mobile-menu__link">Отзывы</a>
+            <a href="about.html" class="mobile-menu__link">О компании</a>
+            <a href="contacts.html" class="mobile-menu__link">Контакты</a>
+        </nav>
+        <div class="mobile-menu__footer">
+            <a href="tel:+78129003662" class="mobile-menu__phone">8 (812) 900 36-62</a>
+            <div class="mobile-menu__social">
+                <a href="#" title="Telegram">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                    </svg>
+                </a>
+                <a href="#" title="VK">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M15.684 0H8.316C1.592 0 0 1.592 0 8.316v7.368C0 22.408 1.592 24 8.316 24h7.368C22.408 24 24 22.408 24 15.684V8.316C24 1.592 22.391 0 15.684 0zm3.692 17.123h-1.744c-.66 0-.864-.525-2.05-1.727-1.033-1-1.49-1.135-1.744-1.135-.356 0-.458.102-.458.593v1.575c0 .424-.135.678-1.253.678-1.846 0-3.896-1.118-5.335-3.202C4.624 10.857 4 8.684 4 8.262c0-.254.102-.491.593-.491h1.744c.44 0 .61.203.78.677.863 2.49 2.303 4.675 2.896 4.675.22 0 .322-.102.322-.66V9.721c-.068-1.186-.695-1.287-.695-1.71 0-.203.17-.407.44-.407h2.744c.373 0 .508.203.508.643v3.473c0 .372.17.508.271.508.22 0 .407-.136.813-.542 1.254-1.406 2.151-3.574 2.151-3.574.119-.254.322-.491.763-.491h1.744c.525 0 .644.27.525.643-.22 1.017-2.354 4.031-2.354 4.031-.186.305-.254.44 0 .78.186.254.796.779 1.203 1.253.745.847 1.32 1.558 1.473 2.05.17.49-.085.744-.576.744z"/>
+                    </svg>
+                </a>
+                <a href="#" title="WhatsApp">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero секция -->
+    <section class="hero">
+        <div class="hero__bg"></div>
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+            <h1 class="hero__title">Живые ёлки и пихты<br>с доставкой <br>по Санкт-Петербургу</h1>
+            <p class="hero__subtitle">Более 6000 деревьев в наличии. <br> Доставка в день заказа или привезём 2 дерева на выбор</p>
+            <div class="hero__buttons">
+                <a href="catalog.html" class="btn btn--primary">Выбрать ёлку</a>
+                <button class="btn btn--outline" id="callbackBtn">Заказать звонок</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3 преимущества -->
+    <section class="advantages">
+        <div class="container">
+            <div class="advantages__grid">
+                <div class="advantage-card">
+                    <div class="advantage-card__icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="1" y="3" width="15" height="13"/>
+                            <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                            <circle cx="5.5" cy="18.5" r="2.5"/>
+                            <circle cx="18.5" cy="18.5" r="2.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="advantage-card__title">Доставка в день заказа!</h3>
+                    <p class="advantage-card__subtitle">Привезём 2 дерева на выбор</p>
+                    <p class="advantage-card__desc">Выбор ёлок и пихт у машины, доставим в удобный временной интервал в любой день</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-card__icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                            <circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="advantage-card__title">Самовывоз с нашего склада</h3>
+                    <p class="advantage-card__subtitle">По адресу наб. Обводного канала, 118АЕ</p>
+                    <p class="advantage-card__desc">Выберите из 6000 деревьев, профессионально запакуем</p>
+                </div>
+
+                <div class="advantage-card">
+                    <div class="advantage-card__icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                            <path d="M9 12l2 2 4-4"/>
+                        </svg>
+                    </div>
+                    <h3 class="advantage-card__title">100% гарантия качества</h3>
+                    <p class="advantage-card__subtitle">Сделаем замену в день доставки</p>
+                    <p class="advantage-card__desc">Если вам что-то не понравится, потому что уверены в свежести и пушистости своих деревьев</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Каталог товаров -->
+    <section class="catalog" id="catalog">
+        <div class="container">
+            <h2 class="section-title">Выберите ёлку, которую хотите заказать</h2>
+
+            <div class="catalog__grid">
+                <!-- Датская ёлка -->
+                <div class="product-card" data-product-id="datskaya">
+                    <div class="product-card__badge">ХИТ</div>
+                    <a href="product-datskaya.html" class="product-card__image">
+                        <img src="tovar.webp" alt="Датская ёлка">
+                    </a>
+                    <div class="product-card__content">
+                        <a href="product-datskaya.html" class="product-card__title">Датская Ёлка (Пихта Нордмана)</a>
+                        <div class="product-card__size-selector">
+                            <select class="size-select" data-product="datskaya">
+                                <option value="1-1.25" data-price="10990">1 - 1,25 м — 10 990 ₽</option>
+                                <option value="1.25-1.5" data-price="14990">1,25 - 1,5 м — 14 990 ₽</option>
+                                <option value="1.5-1.75" data-price="17990">1,5 - 1,75 м — 17 990 ₽</option>
+                                <option value="1.75-2" data-price="22990">1,75 - 2 м — 22 990 ₽</option>
+                                <option value="2-2.25" data-price="28990">2 - 2,25 м — 28 990 ₽</option>
+                                <option value="2.25-2.5" data-price="33990">2,25 - 2,5 м — 33 990 ₽</option>
+                                <option value="2.5-2.75" data-price="42990">2,5 - 2,75 м — 42 990 ₽</option>
+                                <option value="2.75-3" data-price="52990">2,75 - 3 м — 52 990 ₽</option>
+                            </select>
+                        </div>
+                        <div class="product-card__footer">
+                            <span class="product-card__price">10 990 ₽</span>
+                            <button class="btn btn--cart" data-product="datskaya">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Русская ёлка -->
+                <div class="product-card" data-product-id="russkaya">
+                    <div class="product-card__badge">ХИТ</div>
+                    <a href="product-russkaya.html" class="product-card__image">
+                        <img src="tovar.webp" alt="Русская ёлка">
+                    </a>
+                    <div class="product-card__content">
+                        <a href="product-russkaya.html" class="product-card__title">Русская ёлка (Уральская)</a>
+                        <div class="product-card__size-selector">
+                            <select class="size-select" data-product="russkaya">
+                                <option value="1-1.25" data-price="2790">1 - 1,25 м — 2 790 ₽</option>
+                                <option value="1.25-1.5" data-price="3290">1,25 - 1,5 м — 3 290 ₽</option>
+                                <option value="1.5-1.75" data-price="3990">1,5 - 1,75 м — 3 990 ₽</option>
+                                <option value="1.75-2" data-price="4490">1,75 - 2 м — 4 490 ₽</option>
+                                <option value="2-2.25" data-price="4990">2 - 2,25 м — 4 990 ₽</option>
+                                <option value="2.25-2.5" data-price="5490">2,25 - 2,5 м — 5 490 ₽</option>
+                            </select>
+                        </div>
+                        <div class="product-card__footer">
+                            <span class="product-card__price">2 790 ₽</span>
+                            <button class="btn btn--cart" data-product="russkaya">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Сосна уральская -->
+                <div class="product-card" data-product-id="sosna">
+                    <a href="product-sosna.html" class="product-card__image">
+                        <img src="tovar.webp" alt="Сосна уральская">
+                    </a>
+                    <div class="product-card__content">
+                        <a href="product-sosna.html" class="product-card__title">Сосна уральская</a>
+                        <div class="product-card__size-selector">
+                            <select class="size-select" data-product="sosna">
+                                <option value="1-1.25" data-price="4990">1 - 1,25 м — 4 990 ₽</option>
+                                <option value="1.25-1.5" data-price="5490">1,25 - 1,5 м — 5 490 ₽</option>
+                                <option value="1.5-1.75" data-price="5990">1,5 - 1,75 м — 5 990 ₽</option>
+                                <option value="1.75-2" data-price="6990">1,75 - 2 м — 6 990 ₽</option>
+                            </select>
+                        </div>
+                        <div class="product-card__footer">
+                            <span class="product-card__price">4 990 ₽</span>
+                            <button class="btn btn--cart" data-product="sosna">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Пихта Фразера -->
+                <div class="product-card" data-product-id="frazera">
+                    <div class="product-card__badge product-card__badge--premium">Премиум</div>
+                    <a href="product-frazera.html" class="product-card__image">
+                        <img src="tovar.webp" alt="Пихта Фразера">
+                    </a>
+                    <div class="product-card__content">
+                        <a href="product-frazera.html" class="product-card__title">Пихта Фразера</a>
+                        <div class="product-card__size-selector">
+                            <select class="size-select" data-product="frazera">
+                                <option value="1-1.25" data-price="18990">1 - 1,25 м — 18 990 ₽</option>
+                                <option value="1.25-1.5" data-price="22990">1,25 - 1,5 м — 22 990 ₽</option>
+                                <option value="1.5-1.75" data-price="27990">1,5 - 1,75 м — 27 990 ₽</option>
+                                <option value="1.75-2" data-price="34990">1,75 - 2 м — 34 990 ₽</option>
+                            </select>
+                        </div>
+                        <div class="product-card__footer">
+                            <span class="product-card__price">18 990 ₽</span>
+                            <button class="btn btn--cart" data-product="frazera">В корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 48px;">
+                <a href="catalog.html" class="btn btn--primary" style="padding: 16px 48px; font-size: 18px;">Перейти в каталог</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Баннер с формой и таймером -->
+    <section class="cta-banner">
+        <div class="cta-banner__bg"></div>
+        <div class="container">
+            <div class="cta-banner__inner">
+                <div class="cta-banner__form-wrapper">
+                    <h2 class="cta-banner__title">Подберём самую лучшую ёлку!</h2>
+                    <p class="cta-banner__subtitle">Оставьте заявку и наш менеджер свяжется с вами</p>
+                    <form class="cta-banner__form" id="callbackForm">
+                        <input type="text" name="name" placeholder="Имя" class="cta-banner__input">
+                        <input type="tel" name="phone" placeholder="Телефон *" required class="cta-banner__input">
+                        <button type="submit" class="btn btn--primary cta-banner__btn">Отправить</button>
+                    </form>
+                    <label class="cta-banner__checkbox">
+                        <input type="checkbox" checked>
+                        <span>Я даю согласие на обработку персональных данных и подтверждаю, что ознакомлен(а) и согласен(на) с <a href="#">Политикой обработки персональных данных</a></span>
+                    </label>
+                </div>
+                <div class="cta-banner__timer-wrapper">
+                    <div class="cta-banner__timer-label">
+                        До <span class="cta-banner__year">2027</span> года<br>осталось
+                    </div>
+                    <div class="countdown" id="countdown">
+                        <div class="countdown__item">
+                            <span class="countdown__value" id="countdown-days">000</span>
+                            <span class="countdown__label">дней</span>
+                        </div>
+                        <div class="countdown__item">
+                            <span class="countdown__value" id="countdown-hours">00</span>
+                            <span class="countdown__label">часов</span>
+                        </div>
+                        <div class="countdown__item">
+                            <span class="countdown__value" id="countdown-minutes">00</span>
+                            <span class="countdown__label">минут</span>
+                        </div>
+                        <div class="countdown__item">
+                            <span class="countdown__value" id="countdown-seconds">00</span>
+                            <span class="countdown__label">секунд</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок условий доставки и оплаты -->
+    <section class="delivery-info">
+        <div class="container">
+            <h2 class="section-title">Лучшие условия доставки и оплаты</h2>
+            <p class="delivery-info__text">Ёлка – один из главных атрибутов Нового года. Правильный выбор живой ёлки – гарантия того, что она достоит до конца праздников и останется такой же пушистой, как при покупке.</p>
+
+            <div class="delivery-cards">
+                <a href="dostavka.html" class="delivery-card">
+                    <div class="delivery-card__icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/>
+                            <circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
+                        </svg>
+                    </div>
+                    <h3 class="delivery-card__title">Удобная доставка</h3>
+                    <ul class="delivery-card__list">
+                        <li>В день заказа или любой другой день</li>
+                        <li>Выбор интервала времени</li>
+                        <li>Подъём до квартиры, установка</li>
+                    </ul>
+                    <span class="delivery-card__link">Подробнее о доставке →</span>
+                </a>
+
+                <a href="dostavka.html#samovyvoz" class="delivery-card">
+                    <div class="delivery-card__icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                        </svg>
+                    </div>
+                    <h3 class="delivery-card__title">Есть самовывоз</h3>
+                    <ul class="delivery-card__list">
+                        <li>Выбор из 6 000 деревьев</li>
+                        <li>Откроем любое дерево</li>
+                        <li>Крутая фотозона</li>
+                    </ul>
+                    <span class="delivery-card__link">Подробнее о самовывозе →</span>
+                </a>
+
+                <a href="oplata.html" class="delivery-card">
+                    <div class="delivery-card__icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/>
+                        </svg>
+                    </div>
+                    <h3 class="delivery-card__title">Любая оплата</h3>
+                    <ul class="delivery-card__list">
+                        <li>Наличными или картой при получении</li>
+                        <li>Онлайн на сайте</li>
+                        <li>По счёту для ИП и юрлиц</li>
+                    </ul>
+                    <span class="delivery-card__link">Подробнее об оплате →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блок о компании -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-section__inner">
+                <div class="about-section__content">
+                    <h2 class="about-section__title">ЁЛКИ СПБ – дарим петербуржцам новогоднее настроение и высококачественный сервис</h2>
+                    <p class="about-section__text">
+                        Новый год уже совсем близко – а значит, самое время выбирать настоящее новогоднее дерево. Не спешите покупать ёлку в первом попавшемся месте. Загляните к нам – и вы поймёте разницу. У нас самый новогодний ёлочный базар в городе.
+                    </p>
+                    <p class="about-section__text">
+                        Мы в ёлочном бизнесе уже более 13 лет и выращиваем деревья на собственных плантациях, поэтому уверены в качестве каждой ёлки.
+                    </p>
+                    <p class="about-section__text">
+                        <strong>ЁЛКИ СПБ</strong> – это более 6 000 живых деревьев в наличии: датские ёлки, русские, ароматные сосны. У нас вы легко подберёте идеальный размер, форму и пушистость – ту самую ёлку, которая станет центром вашего праздника.
+                    </p>
+                    <a href="about.html" class="btn btn--outline">Подробнее о компании</a>
+                </div>
+                <div class="about-section__gallery">
+                    <div class="about-section__gallery-main">
+                        <img src="bg.webp" alt="Наш склад">
+                    </div>
+                    <div class="about-section__gallery-thumbs">
+                        <img src="vertical.webp" alt="Ёлки">
+                        <img src="goiz-bg.webp" alt="Склад">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция отзывов -->
+    <section class="reviews">
+        <div class="container">
+            <h2 class="section-title">Более 1000 довольных отзывов в независимых порталах</h2>
+
+            <div class="reviews__platforms">
+                <a href="#" class="reviews__platform">
+                    <span class="reviews__platform-name">Яндекс</span>
+                    <span class="reviews__platform-rating">5.0</span>
+                    <span class="reviews__platform-stars">★★★★★</span>
+                </a>
+                <a href="#" class="reviews__platform">
+                    <span class="reviews__platform-name">Google</span>
+                    <span class="reviews__platform-rating">4.8</span>
+                    <span class="reviews__platform-stars">★★★★★</span>
+                </a>
+                <a href="#" class="reviews__platform">
+                    <span class="reviews__platform-name">2ГИС</span>
+                    <span class="reviews__platform-rating">5.0</span>
+                    <span class="reviews__platform-stars">★★★★★</span>
+                </a>
+                <a href="#" class="reviews__platform">
+                    <span class="reviews__platform-name">Zoon</span>
+                    <span class="reviews__platform-rating">4.6</span>
+                    <span class="reviews__platform-stars">★★★★★</span>
+                </a>
+            </div>
+
+            <div class="reviews__widget">
+                <iframe
+                    src="https://yandex.ru/maps-reviews-widget/127420242978?comments"
+                    style="width:100%;height:100%;border:none;">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ секция -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2 class="section-title">Часто задаваемые вопросы</h2>
+            <div class="faq__list">
+                <div class="faq__item">
+                    <button class="faq__question">
+                        <span>Откуда берутся живые новогодние ёлки?</span>
+                        <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Наши ёлки поступают с официальных плантаций в России (Удмуртия, Урал) и из Дании. Все деревья имеют сертификаты и фитосанитарные документы. Мы закупаем только свежесрезанные деревья и храним их в специальных условиях.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question">
+                        <span>Какую ёлку купить?</span>
+                        <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Выбор зависит от ваших предпочтений. Датские ёлки (пихта Нордмана) – самые пушистые и долго не осыпаются. Русские ёлки – классический вариант с насыщенным ароматом. Сосны – для любителей пышных деревьев с длинной хвоей.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question">
+                        <span>Где купить?</span>
+                        <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Вы можете заказать ёлку на нашем сайте с доставкой по Санкт-Петербургу или приехать на наш склад по адресу: наб. Обводного канала, 118АЕ. Склад работает круглосуточно в декабре.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question">
+                        <span>Какая ёлка в тренде в 2027 году?</span>
+                        <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>В этом году особенно популярны датские ёлки (пихта Нордмана) – они не колючие, очень пушистые и практически не осыпаются. Также набирает популярность пихта Фразера с её неповторимым ароматом.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question">
+                        <span>Как украсить ёлку?</span>
+                        <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Сначала установите ёлку в подставку с водой. Начинайте украшать сверху вниз: сначала гирлянды, затем крупные игрушки, потом мелкие. Не забудьте про мишуру и звезду на верхушке. Используйте коврик-мешок под ёлку для защиты пола.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question">
+                        <span>Как долго простоит Датская ёлка в доме?</span>
+                        <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>При правильном уходе датская ёлка (пихта Нордмана) простоит 4-6 недель. Используйте подставку с водой, добавляйте специальную жидкость против осыпания, не ставьте рядом с батареей и периодически опрыскивайте хвою.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question">
+                        <span>Как ухаживать за новогодней ёлкой?</span>
+                        <svg class="faq__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M6 9l6 6 6-6"/>
+                        </svg>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Обновите срез ствола перед установкой. Используйте подставку с резервуаром для воды. Добавляйте воду каждые 1-2 дня. Разместите ёлку вдали от батарей и прямых солнечных лучей. Опрыскивайте хвою из пульверизатора.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA баннер перед футером -->
+    <section class="cta-banner cta-banner--footer">
+        <div class="cta-banner__bg"></div>
+        <div class="container">
+            <div class="cta-banner__inner">
+                <div class="cta-banner__form-wrapper">
+                    <h2 class="cta-banner__title">Доставим новогоднее настроение с высочайшим сервисом</h2>
+                    <p class="cta-banner__subtitle">Перезвоним в течении 90 сек. или подарим бесплатную доставку (с 08:00 до 24:00)</p>
+                    <form class="cta-banner__form" id="callbackForm2">
+                        <input type="tel" name="phone" placeholder="Телефон *" required class="cta-banner__input">
+                        <button type="submit" class="btn btn--primary cta-banner__btn">Перезвонить мне</button>
+                    </form>
+                    <p class="cta-banner__privacy">Нажимая на кнопку, вы соглашаетесь с <a href="#">Политикой конфиденциальности</a></p>
+                </div>
+                <div class="cta-banner__timer-wrapper">
+                    <div class="cta-banner__timer-label">
+                        До <span class="cta-banner__year">2027</span> года<br>осталось
+                    </div>
+                    <div class="countdown" id="countdown2">
+                        <div class="countdown__item">
+                            <span class="countdown__value countdown-days">000</span>
+                            <span class="countdown__label">дней</span>
+                        </div>
+                        <div class="countdown__item">
+                            <span class="countdown__value countdown-hours">00</span>
+                            <span class="countdown__label">часов</span>
+                        </div>
+                        <div class="countdown__item">
+                            <span class="countdown__value countdown-minutes">00</span>
+                            <span class="countdown__label">минут</span>
+                        </div>
+                        <div class="countdown__item">
+                            <span class="countdown__value countdown-seconds">00</span>
+                            <span class="countdown__label">секунд</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEO текст -->
+    <section class="seo-text">
+        <div class="container">
+            <h2 class="seo-text__title">Живые ёлки с доставкой по Санкт-Петербургу</h2>
+            <div class="seo-text__content">
+                <div class="seo-text__visible">
+                    <p>Компания «ЁЛКИ СПБ» предлагает купить живые новогодние ёлки с доставкой по Санкт-Петербургу и Ленинградской области. Мы работаем напрямую с проверенными питомниками из Дании, России и других стран, что позволяет предлагать только свежие и качественные деревья по доступным ценам.</p>
+                </div>
+                <div class="seo-text__hidden">
+                    <h3>Широкий ассортимент новогодних деревьев</h3>
+                    <p>В нашем каталоге представлены различные виды елей, пихт и сосен:</p>
+                    <ul>
+                        <li><strong>Датская ёлка</strong> — классический выбор с пышной кроной и насыщенным зелёным цветом. Идеально держит форму и долго не осыпается.</li>
+                        <li><strong>Русская ёлка</strong> — традиционная ель с характерным хвойным ароматом и доступной ценой.</li>
+                        <li><strong>Пихта Нордмана</strong> — премиальный вариант с мягкой хвоей, которая не колется. Отличается длительной свежестью.</li>
+                        <li><strong>Пихта Фразера</strong> — элитное дерево с идеальной конической формой и приятным цитрусовым ароматом.</li>
+                        <li><strong>Сосна в горшке</strong> — живое дерево с корневой системой, которое можно высадить после праздников.</li>
+                    </ul>
+
+                    <h3>Преимущества покупки ёлки в «ЁЛКИ СПБ»</h3>
+                    <p><strong>Гарантия свежести.</strong> Все деревья поступают к нам напрямую из питомников и хранятся в специальных условиях. Мы гарантируем, что ваша ёлка будет свежей и простоит все новогодние праздники.</p>
+                    <p><strong>Быстрая доставка.</strong> Доставляем ёлки в день заказа по всему Санкт-Петербургу. Бесплатная доставка при заказе от 5 000 ₽. Работаем без выходных в предновогодний период.</p>
+                    <p><strong>Удобная оплата.</strong> Принимаем наличные, банковские карты и онлайн-оплату. Выдаём кассовые чеки при любом способе оплаты.</p>
+                    <p><strong>Профессиональная помощь.</strong> Наши консультанты помогут выбрать идеальную ёлку под размеры вашего помещения и бюджет. Звоните — подберём лучший вариант!</p>
+
+                    <h3>Аксессуары для ёлок</h3>
+                    <p>Помимо живых деревьев, мы предлагаем всё необходимое для ухода за ёлкой: подставки для ёлок и пихт, специальную жидкость для продления свежести, коврики-мешки для удобной уборки и свежий лапник для декора.</p>
+
+                    <h3>Как заказать ёлку</h3>
+                    <p>Оформить заказ можно на сайте, выбрав понравившееся дерево и указав адрес доставки, или по телефону 8 (812) 900 36-62. Мы работаем ежедневно с 9:00 до 21:00. Сделайте ваш Новый год по-настоящему волшебным вместе с «ЁЛКИ СПБ»!</p>
+                </div>
+                <button class="seo-text__toggle">Показать больше</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <a href="index.html" class="footer__logo">
+                        <svg class="footer__logo-icon" viewBox="0 0 40 40" fill="none">
+                            <path d="M20 2L24 12H16L20 2Z" fill="currentColor"/>
+                            <path d="M20 8L26 20H14L20 8Z" fill="currentColor"/>
+                            <path d="M20 14L28 28H12L20 14Z" fill="currentColor"/>
+                            <path d="M20 20L30 36H10L20 20Z" fill="currentColor"/>
+                            <rect x="17" y="36" width="6" height="4" fill="#8B4513"/>
+                        </svg>
+                        <span>ЁЛКИ СПБ</span>
+                    </a>
+                    <p class="footer__tagline">Живые новогодние ёлки<br>с доставкой по Санкт-Петербургу</p>
+                </div>
+                <div class="footer__links">
+                    <div class="footer__col">
+                        <h4>Каталог</h4>
+                        <a href="product-datskaya.html">Датские ёлки</a>
+                        <a href="product-russkaya.html">Русские ёлки</a>
+                        <a href="product-nordmana.html">Пихта Нордмана</a>
+                        <a href="product-frazera.html">Пихта Фразера</a>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Информация</h4>
+                        <a href="dostavka.html">Доставка</a>
+                        <a href="oplata.html">Оплата</a>
+                        <a href="about.html">О компании</a>
+                        <a href="contacts.html">Контакты</a>
+                    </div>
+                    <div class="footer__col">
+                        <h4>Контакты</h4>
+                        <a href="tel:+78129003662">8 (812) 900 36-62</a>
+                        <a href="mailto:mail@elki.site">mail@elki.site</a>
+                        <p>наб. Обводного канала, 118АЕ</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2027 ЁЛКИ СПБ. Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Мобильная навигация -->
+    <nav class="mobile-nav">
+        <a href="#" class="mobile-nav__item" id="mobileNavMenu">
+            <svg width="24" height="24" viewBox="0 0 40 40" fill="none">
+                <path d="M20 2L24 12H16L20 2Z" fill="currentColor"/>
+                <path d="M20 8L26 20H14L20 8Z" fill="currentColor"/>
+                <path d="M20 14L28 28H12L20 14Z" fill="currentColor"/>
+                <path d="M20 20L30 36H10L20 20Z" fill="currentColor"/>
+                <rect x="17" y="36" width="6" height="4" fill="#8B4513"/>
+            </svg>
+            <span>Меню</span>
+        </a>
+        <a href="catalog.html" class="mobile-nav__item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
+                <rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
+            </svg>
+            <span>Каталог</span>
+        </a>
+        <a href="tel:+78129003662" class="mobile-nav__item mobile-nav__item--accent">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <span>Позвонить</span>
+        </a>
+        <a href="#" class="mobile-nav__item" id="mobileCartBtn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+            </svg>
+            <span>Корзина</span>
+            <span class="mobile-nav__cart-count">0</span>
+        </a>
+        <a href="contacts.html" class="mobile-nav__item">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span>Контакты</span>
+        </a>
+    </nav>
+
+    <!-- Модальное окно звонка -->
+    <div class="modal" id="callbackModal">
+        <div class="modal__overlay"></div>
+        <div class="modal__content">
+            <button class="modal__close" id="modalClose">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+            <h3 class="modal__title">Заказать звонок</h3>
+            <p class="modal__subtitle">Перезвоним в течении 90 сек. или подарим бесплатную доставку</p>
+            <form class="modal__form" id="modalCallbackForm">
+                <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required class="modal__input">
+                <button type="submit" class="btn btn--primary modal__btn">Заказать звонок</button>
+            </form>
+            <p class="modal__privacy">Нажимая на кнопку, вы соглашаетесь с <a href="#">Политикой конфиденциальности</a></p>
+        </div>
+    </div>
+
+    <!-- Модальное окно корзины -->
+    <div class="modal modal--cart" id="cartModal">
+        <div class="modal__overlay"></div>
+        <div class="modal__content modal__content--cart">
+            <button class="modal__close" id="cartModalClose">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+            <h3 class="modal__title">Корзина</h3>
+            <div class="cart" id="cartItems">
+                <p class="cart__empty">Корзина пуста</p>
+            </div>
+            <div class="cart__footer" id="cartFooter" style="display: none;">
+                <div class="cart__total">
+                    <span>Итого:</span>
+                    <span id="cartTotal">0 ₽</span>
+                </div>
+                <a href="checkout.html" class="btn btn--primary cart__checkout">Оформить заказ</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
